@@ -16,7 +16,6 @@ class Puzzle
                 {
                     value = rand.Next(1, 10);
                 }
-
                 check[indx++] = value;
                 input[r, c] = value;
 
